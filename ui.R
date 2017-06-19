@@ -26,7 +26,9 @@ shinyUI(fluidPage(
     # Show a plot of the generated distribution
     mainPanel(
       plotOutput("chickPlot"),
-      textOutput("chickWeight")
+      textOutput("chickWeight"),
+      br(),
+      a("source files on github", href="https://github.com/jar1218/Developing-Data-Products")
     )
   )
 ))
